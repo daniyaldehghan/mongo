@@ -73,7 +73,7 @@ export default function Home() {
                 />
               </div>
             ) : null}
-            <button onClick={() => saveHandler(user._id)}>Save</button>
+            {/* <button onClick={() => saveHandler(user._id)}>Save</button> */}
           </div>
         ))}
       </div>
